@@ -5,7 +5,7 @@
 
 import os
 import numpy as np
-import third_party.ATE.transformations as tf
+import nerfmm.third_party.ATE.transformations as tf
 
 
 def get_rigid_body_trafo(quat, trans):

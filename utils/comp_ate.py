@@ -1,5 +1,5 @@
-from third_party.ATE.compute_trajectory_errors import compute_absolute_error
-from third_party.ATE.results_writer import compute_statistics
+from nerfmm.third_party.ATE.compute_trajectory_errors import compute_absolute_error
+from nerfmm.third_party.ATE.results_writer import compute_statistics
 from utils.lie_group_helper import SO3_to_quat
 from utils.align_traj import align_ate_c2b_use_a2b
 

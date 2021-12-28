@@ -3,8 +3,8 @@
 
 import numpy as np
 
-import third_party.ATE.transformations as tfs
-import third_party.ATE.align_trajectory as align
+import nerfmm.third_party.ATE.transformations as tfs
+import nerfmm.third_party.ATE.align_trajectory as align
 
 
 def _getIndices(n_aligned, total_n):

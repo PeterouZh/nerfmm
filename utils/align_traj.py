@@ -1,8 +1,8 @@
 import numpy as np
 import torch
 
-from third_party.ATE.align_utils import alignTrajectory
-from utils.lie_group_helper import SO3_to_quat, convert3x4_4x4
+from nerfmm.third_party.ATE.align_utils import alignTrajectory
+from nerfmm.utils.lie_group_helper import SO3_to_quat, convert3x4_4x4
 
 
 def pts_dist_max(pts):
